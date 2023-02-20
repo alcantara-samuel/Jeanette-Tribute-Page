@@ -1,0 +1,228 @@
+* {
+    font-family: 'Lora', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header{
+    width: 100%;
+    height: 64px;
+    background-color: #1D1E26;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+header nav{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.option_nav,
+.option_nav_central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 336px;
+    height: 100%;
+    
+    
+}
+.option_nav:hover{
+    cursor: pointer;
+    background-color: #8C111B;
+    font-size: 24px;
+}
+.option_nav_central{
+    font-size: 24px;
+    background-color: #8C111B;
+    
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:630px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/Jeanette.jpg);
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+    padding: 150px;
+
+
+
+}
+.banner_text h1{
+    font-size: 72px;
+    font-weight: bold;
+    text-shadow: -2px 2px 2px #8C111B;
+    margin: 0;
+}
+.banner_text h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #1D1E26;
+    text-align: center;
+
+}
+
+.banner_arrow img:hover{
+    width: 110px;
+
+}
+
+
+
+
+.biography{
+    display: flex;
+    justify-content: center;
+    background-color: #1D1E26;
+    color: #F2F2F2;
+    border-bottom: 1px solid #AAAAAA;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    width: 990px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+
+.biography_text,
+.discography_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.biography_text h1,
+.discography_title h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.biography_text p{
+    font-size: 16px;
+    text-align:justify;
+    margin: 5px;
+}
+
+.biography_img{
+    width: 100%;
+    height: auto;
+}
+
+
+.flex_column{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.discography{
+    display: flex;
+    justify-content: center;
+    background-color: #1D1E26;
+    color: #F2F2F2;
+
+}
+
+.discography_albums{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: auto;
+    box-shadow: 3px 4px 1px #000000;
+    margin: 30px;
+}
+
+
+.album_img img{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+.album_img p{
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.album_title{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.album_list li{
+    font-size: 12px;
+
+}
+
+.discography_more a{
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.discography_more a:hover{
+    text-decoration: underline;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    background-color: #8C111B;
+    color: #F2F2F2;
+    font-size: 18px;
+    
+}
+footer span{
+    flex:1;
+    margin: 20px;
+
+}
+.footer_by{
+    text-align: right;
+}
+
+
+
+
+
+
+
