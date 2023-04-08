@@ -33,6 +33,7 @@ header nav{
     font-size: 18px;
     width: 336px;
     height: 100%;
+    transition: all ease .5s;
     
     
 }
@@ -66,9 +67,6 @@ header nav{
     align-items: center;
     color: #F2F2F2;
     padding: 150px;
-
-
-
 }
 .banner_text h1{
     font-size: 72px;
@@ -85,7 +83,8 @@ header nav{
 }
 
 .banner_arrow img:hover{
-    width: 110px;
+    opacity: 0.9;
+    cursor: pointer;
 
 }
 
